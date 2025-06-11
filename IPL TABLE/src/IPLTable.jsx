@@ -41,7 +41,7 @@ const IPLTable = () => {
           </thead>
           <tbody>
             {teams.map((team) => (
-              <tr key={team.No}> {/* Fix: Use unique key from "No" */}
+              <tr key={team.No}> {   }
                 <td>{team.No}</td>
                 <td>{team.Team}</td>
                 <td>{team.Matches}</td>
