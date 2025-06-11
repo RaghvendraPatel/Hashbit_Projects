@@ -1,0 +1,27 @@
+.ipl-container {
+  padding: 30px;
+  font-family: 'Times New Roman', serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 18px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: none;
+}
+
+th {
+  font-weight: bold;
+}
