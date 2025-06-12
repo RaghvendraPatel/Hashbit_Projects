@@ -1,0 +1,121 @@
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.movie-card {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-image {
+  width: 100%;
+  height: auto;
+}
+
+.details-page,
+.form-container,
+.confirmation {
+  background-color: #fff;
+  padding: 40px;
+  margin: 40px auto;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details-image {
+  width: 300px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.book-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.book-button:hover {
+  background-color: #0056b3;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.form-container button:hover {
+  background-color: #218838;
+}
+
+.confirmation h2 {
+  color: #28a745;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.confirmation p {
+  margin: 10px 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .movie-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .details-page,
+  .form-container,
+  .confirmation {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  .details-image {
+    width: 100%;
+  }
+}
+
+
