@@ -1,2 +1,2 @@
 # Hashbit_Projects
-these are the assignment given by hashbit 
+these are the assignment given by hashbit
